@@ -42,7 +42,7 @@ b { font-weight: 700; }
 .btn-row { display: flex; gap: 10px; justify-content: flex-end; margin-top: 16px; flex-wrap: wrap; }
 
 /* ---------- HUD ---------- */
-.hud { position: fixed; inset: 0; pointer-events: none; }
+.hud { position: fixed; inset: 0; pointer-events: none !important; }
 .hud > * { pointer-events: auto; }
 .hud-quest { position: absolute; top: calc(16px + var(--safe-t)); left: 16px; width: 280px; padding: 12px 14px; background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--cyan); border-radius: 12px; backdrop-filter: blur(6px); }
 .hud-quest.pulse { animation: qpulse 0.9s ease; }
